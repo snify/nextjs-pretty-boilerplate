@@ -2,4 +2,6 @@ $custom-blue: rgb(92, 120, 245);
 
 .blue {
   color: $custom-blue;
+  border: 1px solid $custom-blue;
+  padding: 15px;
 }

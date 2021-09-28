@@ -17,6 +17,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <h2>NextJS-Pretty-Boilerplate</h2>
 
         {/* NOTE: try removing the "text" property in runtime, to see hot-reload type checking in action */}
         <TestComponent text="Some text" />
