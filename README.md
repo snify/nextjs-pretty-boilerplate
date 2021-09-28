@@ -6,13 +6,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ...But with extra flavor 🎁
 
 It contains:
+
 - TypeScript support
+- Type checking at runtime (on hot-reload, see index.tsx#22 to try it)
 - SASS support
 - Project-wide automatic formatting with Prettier for TypeScript, JS, CSS files
 - Project-wide automatic type checking/rule checking with ESLint
 - BasePath resolving extensions (i.e. "components/mycomponent" instead of "./components/mycomponent")
 
 Few extra commands (i.e. yarn [command] or npm run [command]):
+
 - format - formats all js, jsx, ts, tsx, json, md and saves them
 - lint - linting checks
 - lint:fix - automatic linting for all js, ts, tsx
