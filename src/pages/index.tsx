@@ -18,7 +18,8 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <TestComponent />
+        {/* NOTE: try removing the "text" property in runtime, to see hot-reload type checking in action */}
+        <TestComponent text="Some text" />
 
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.js</code>
